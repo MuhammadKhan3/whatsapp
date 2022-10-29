@@ -1,0 +1,90 @@
+.mainContainer{
+    float: left;
+    background: rgb(255, 192, 203,0.1);
+    width: 68%;
+    height: 100vh;
+    display: inline-block;
+
+
+}
+.innerContainer{
+    background-color:rgb(231,233,236,0.8);
+    width: 100%;
+    height: 8%;
+    /* height: 80vh; */
+}
+
+.profileContainer{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+    float: left;
+  }
+  .profileContainer:hover{
+    cursor: pointer;
+  }
+  .name{
+    margin: 0px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 19px;
+  }
+  .messageContainer{
+    overflow: auto;
+    height: 80%;
+    /* height: 50%; */
+    /* overflow: auto; */
+  }
+  .phoneIcons{
+    display: inline;
+    margin-left: 63%;
+  }
+  .messageList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    /* overflow: auto; */
+  }
+  .sendMessage{
+    /* margin-left: 830px; */
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    word-break: break-all;
+
+    background-color: #d9fdd3;
+    padding: 5px;
+    height: auto;
+    border-radius: 5px;
+    width: 30%;
+    border-top-right-radius:10px;
+  }
+  .sendMessagetime{
+    font-size: 10px;
+    position: relative;
+    width: 60px;
+  }
+  .receiveMessage{
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    word-break: break-all;
+
+
+    background-color: #fff;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    padding-bottom: 8px;
+  }
+
+.receiver{
+  margin-top: 10px;
+}
+.sender{
+  margin-top: 10px;
+
+}

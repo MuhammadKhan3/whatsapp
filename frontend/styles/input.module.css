@@ -1,0 +1,33 @@
+.inputContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  display: block;
+  position: fixed;
+  top: 92%;
+  width: 68%;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    float: left;
+    display: inline;
+}
+.sendBtn{
+    /* float: left; */
+    display: inline;
+    border-radius: 5px ;
+    background-color: greenyellow;
+    color: white;
+    width: 8%;
+    font-size: 1rem;
+    border: none;
+    padding: 9px 0px 9px 0px;
+    /* margin-left: 10px; */
+}
+.sendBtn:hover{
+    cursor: pointer;
+}
+.sendBtn:active{
+    background-color: lightgreen;
+}
